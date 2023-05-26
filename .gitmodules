@@ -1,0 +1,6 @@
+[submodule "deps/googletest"]
+	path = deps/googletest
+	url = https://github.com/google/googletest
+[submodule "deps/state_machine"]
+	path = deps/state_machine
+	url = https://github.com/asi-tdd/state_machine
