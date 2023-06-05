@@ -9,7 +9,7 @@ build_gtest(deps/googletest deps/googletest)
 
 # build the state machine library so we can link against it and use it in tests
 add_subdirectory(deps/state_machine/state_machine deps/state_machine)
-
+add_subdirectory(custom_states)
 
 # function(add_gtest TEST_NAME SOURCES INCLUDES LIBRARIES OUT_DIR)
 
